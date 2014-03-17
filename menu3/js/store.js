@@ -28,6 +28,8 @@ function store() {
     ];
     this.carnes = [
         new product("FIL", "Filete", "Filete de pescado bañado en salsa tártara.", 35),
+        new product("POL", "Pollo Asado", "Pollo asado con chimichurri.", 35),        
+        new product("CAM", "Camarones", "Camarones Empanizados.", 45),
     ];
     this.postres = [
         new product("pil", "Pie de Limón", "El postre favorito de nuestra casa.", 45),
