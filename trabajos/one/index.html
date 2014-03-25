@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+    <title>René Peña</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <header>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">contacto</a></li>                  
+      
+            <li><a href="logros.html">Logros</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>            
+            <li><a href="servicios.html">Servicios</a></li>
+          
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+
+    </header>
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/car4.jpg" alt="First slide">
+        </div>
+        <div class="item">
+          <img src="img/car5.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+          <img src="img/car6.jpg" alt="Third slide">
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->    
+  </div>
+
+<div class="row legend">
+  <div class="col-xs-12 col-md-8"><h3>Con TGC Internacional  como su socio, estamos dispuestos a desarrollar un 
+                                      enfoque muy innovador, agresivo y creativo en todos los procesos de marketing
+                                       y ventas en su universidad.</h3></div>
+  <div class="col-xs-6 col-md-4">
+    <button type="button" data-toggle="modal" href="#myModal" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-hand-up"></span> Únase a nuestro Equipo</button>
+  </div>
+</div>  
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h2 class="modal-title">Formulario de Pre - Inscripción</h2>
+        </div>
+        <div class="modal-body">
+                  <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label for="nombre" class="col-lg-3 control-label">Nombre</label>
+                      <div class="col-lg-9">
+                        <input type="email" class="form-control" id="inputEmail1" placeholder="Su Nombre">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="correo" class="col-lg-3 control-label">Correo</label>
+                      <div class="col-lg-9">
+                        <input type="email" class="form-control" id="inputPassword1" placeholder="micorreo@misitio.com">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="telefono" class="col-lg-3 control-label">Celular</label>
+                      <div class="col-lg-9">
+                        <input type="email" class="form-control" id="inputEmail1" placeholder="9999-1111">
+                      </div>
+                    </div>    
+                    <div class="form-group">
+                      <label for="telefono" class="col-lg-3 control-label">Comentario</label>
+                      <div class="col-lg-9">
+                        <textarea class="form-control" rows="6"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="telefono" class="col-lg-3 control-label">Universidad</label>
+                      <div class="col-lg-9">
+                        <select class="form-control">
+                          <option>UNITEC</option>
+                          <option>UJCV</option>
+                          <option>UNAH</option>
+                          <option>UNICAH</option>                          
+                        </select>
+                      </div>
+                    </div>                                     
+                    <div class="form-group">
+                      <div class="col-lg-offset-3 col-lg-9">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+                      </div>
+                    </div> 
+                  </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>          
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+  
+        <div class="page-header">
+          <h1>Nuestro compromiso es letal <small>TGCI desarrolla a nuestros clientes/asociados potenciales </small></h1>
+        </div>    
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="comp" src="img/plan.png" >
+          <h2>Plan</h2>
+          <p>Un Estudio Integral Interno y una Auditoria de Marketing orientado al planteamiento de soluciones y factores de críticos de éxito para lograr los objetivos de nuestros clientes/asociados.</p>
+          <p><a class="btn btn-default" href="#">Leer Más &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="comp" src="img/objetivo.png" >
+          <h2>Objetivos</h2>
+          <p>Elaboración de un plan estratégico de marketing dirigido al logro de los objetivos de la institución. 3. Reingeniería y propuesta de planes nancieros dirigidos a optimizar ingresos y utilidades.</p>
+          <p><a class="btn btn-default" href="#">Leer Más &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="comp" src="img/resultado.png">
+          <h2>Resultados</h2>
+          <p>Nuestra experiencia se ve centrada en el resultado, logrando en  nuestros clientes/asociados el éxito en alcanzar objetivos que se plantean, basados en un estudio y análisis integral.</p>
+          <p><a class="btn btn-default" href="#">Leer Más &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+<footer>
+      <div class="row">
+        <div class="col-12 col-lg-12 text-center">
+          <div style="display:inline-block">
+            <div class="circ-wrap">
+              <a href="http://www.facebook.com"><img src="img/sfb.png" alt=""></a>
+            </div>
+            <div class="circ-wrap">
+              <a href="http://www.facebook.com"><img src="img/stw.png" alt=""></a>
+            </div>
+            <div class="circ-wrap">
+              <a href="http://www.facebook.com"><img src="img/sskype.png" alt=""></a>
+            </div>
+            <div class="circ-wrap">
+              <a href="http://www.facebook.com"><img src="img/sinst.png" alt=""></a>
+            </div>
+            <div class="circ-wrap">
+              <a href="http://www.facebook.com"><img src="img/syt.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">     
+        <div class="text-center col-sm-12 col-lg-12">
+            <p>© 2013 TGC Internacional</p>
+        </div>
+      </div>
+</footer>       
+    <script src="//code.jquery.com/jquery.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>      
+    <script src="js/holder.js"></script>     
+  </body>
+</html>

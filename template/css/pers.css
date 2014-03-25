@@ -1,0 +1,68 @@
+body{
+	padding-top: 51px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+
+}
+
+.brand {
+  background: url(../img/logo.png) no-repeat center;
+  height: 30px;
+  width: 100px;
+}
+
+a{
+	color: rgb(125,179,20);
+}
+
+.hero-unit{	
+	border-radius: 0;
+	background: url('../img/b3.jpg');
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+}
+
+.hero-unit h1{
+	color: #425609;	
+}
+
+.hero-unit img{
+	width: 150px;	
+}
+
+.container-fluid{
+	width: 80%;
+	margin: 0 auto;	
+}
+
+
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+    background-color: rgb(125,179,20);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.data > li { 
+	float: left;
+	margin-right: 60px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	vertical-align: inherit;
+}
+
+@media (max-width: 979px) {
+	body{
+    	padding-right: 0px;
+    	padding-left: 0px;
+    	padding-top: 0px;
+	}
+	.navbar-fixed-top,
+    .navbar-fixed-bottom,
+    .navbar-static-top {
+	   	margin-right: 0px;
+  		margin-left: 0px;
+  		margin-top: 0px;
+  		margin-bottom: 0px;
+	}	
+}

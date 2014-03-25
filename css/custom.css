@@ -1,0 +1,49 @@
+*{
+  border-radius: 0px;
+}
+
+body {
+	color: white;
+
+	padding-top: 50px;
+  	background: url('../img/bg.png');
+}
+.starter-template {
+
+  	padding: 40px 15px;
+  	text-align: center;
+}
+
+.starter-template p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.jumbotron {
+  	text-align: center;
+  	background: transparent;  
+}
+.jumbotron .btn {
+  	font-size: 21px;
+  	padding: 14px 24px;
+}
+
+.container:after{
+    border-radius: 40px;    
+    
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";    
+}
+
+.thumbnail {
+   margin-bottom: 20px;
+}
+
+a{
+	color: white;
+}

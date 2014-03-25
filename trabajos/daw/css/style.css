@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+body{
+    background: rgb(245,245,240); 
+}
+
+p{
+
+    font-size: 13px;
+}
+
+.container { 
+    border-top: 8px solid rgb(240,240,240);   
+    width: 1200px;
+    background: white;
+    margin: 50px auto;
+    
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header img{
+    width: 100%;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.content{
+	margin: 10px auto;
+	width: 80%;
+	border-top: 1px solid #ccc;
+	
+}
+
+.content p{
+	text-align: justify;	
+	padding: 10px;	
+}
+
+.footer{
+	text-align: center;
+}
