@@ -1,0 +1,47 @@
+﻿<div class="menu">
+    <h3 class="text-center">Seleccione la carnes que desea tomar</h3>
+    <p>
+    <label for="search">Buscar: </label><input type="text" ng-model="search">
+</p>
+    <table class="table table-bordered">
+        <tr class="well">
+            <td class="tdRight" colspan="100" >
+                <a href="index.htm#/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+                    <i class="icon-shopping-cart" />
+                    <b>{{cart.getTotalCount()}}</b> complementos, <b>{{cart.getTotalPrice() | currency : "Lps. "}}</b>
+                </a>
+            </td>
+        </tr>
+        <tr ng-repeat="product in store.postres | orderBy:'name' | filter:search" >
+            <td class="tdCenter" colspan="50">
+                <img ng-src="img/products/{{product.sku}}.jpg" alt="{{product.name}}" />
+            </td>
+            <td>
+                <h2 class="product-title">{{product.name}}</h2>
+                <p class="product-description">{{product.description}}</p>
+            </td>
+            <td class="tdCenter" >
+               <p class="product-description">
+                {{product.price | currency : "Lps. "}}
+               </p> 
+            </td>
+            <td class="tdCenter">
+                <button class="btn btn-medium btn-info btn-block" type="button" ng-click="cart.addItem(product.sku, product.name, product.price, 1)">Seleccionar Complemento <i class="icon-chevron-right" /></button>
+                <!-- <button class="btn btn-medium btn-inverse btn-block" type="button" ng-click="go(#/products/{{product.sku}})">Ver Descripción</button> -->
+                <a class="btn btn-medium btn-inverse btn-block"href="#frutas/{{product.sku}}">Ver Descripción</a>
+                <!-- <a href="" ng-click="cart.addItem(product.sku, product.name, product.price, 1)">
+                    add to cart
+                </a> -->
+            </td>
+        </tr>
+        <tr class="well">
+            <td class="tdRight" colspan="100">
+                <a href="index.htm#/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+                    <i class="icon-shopping-cart" />
+                    <b>{{cart.getTotalCount()}}</b> complementos, <b>{{cart.getTotalPrice() | currency : "Lps. "}}</b>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+

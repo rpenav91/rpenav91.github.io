@@ -1,0 +1,98 @@
+﻿/*!
+ * Extend Bootstrap v2.3.1 to provide cell alignment (doh)
+ *
+ */
+
+*{
+	border-radius: 0px !important;	
+}
+
+.menu{
+	margin-top: 50px;
+}
+table td.tdRight{
+	text-align: right;
+}
+
+table td.tdCenter{
+	text-align: center;	
+	margin-top: 10px;
+}
+
+table p {
+	margin-top: 10px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url('../img/.png');
+	background: #EBEBEB;
+	/*background-image: linear-gradient(#fdfdfd, #eee);*/
+
+}
+
+.well{
+	/*background: #FFAE40	;*/
+	background: transparent;
+	
+}
+
+.product-title{
+	font-family: 'Changa One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 0;
+}
+
+.product-description, .product-{
+	font-family: 'Hammersmith One', sans-serif;
+	padding: 0;
+}
+
+.bg-banner,
+.banner{
+	margin: 0px;
+	height : 105px;	
+	text-align: center;
+	padding-top: 40px;
+	background: url('../img/food.png');
+	-moz-box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 			rgba(0,0,0,.3) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 		rgba(0,0,0,.3) /*{global-box-shadow-color}*/;
+	box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 				rgba(0,0,0,.3) /*{global-box-shadow-color}*/;	
+}
+
+.selected{
+	z-index: 1000;
+}
+
+.bg-banner{
+	width : 100%;
+}
+
+.banner img{
+	width: 70%;	
+}
+.menu{
+	padding-top: 10px;
+	margin-top: 50px;
+	background: white;
+	-moz-box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 			rgba(0,0,0,.3) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 		rgba(0,0,0,.3) /*{global-box-shadow-color}*/;
+	box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 				rgba(0,0,0,.3) /*{global-box-shadow-color}*/;		
+}
+.menu p{
+	padding:10px;
+}
+.producto > .span4 > img {
+	margin: 0 auto;
+}
+.producto{
+	margin-top: 50px;
+	background: white;
+	padding:10px 10px 30px 10px;
+	-moz-box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 			rgba(0,0,0,.3) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 		rgba(0,0,0,.3) /*{global-box-shadow-color}*/;
+	box-shadow: 0px 1px 24px /*{global-box-shadow-size}*/ 				rgba(0,0,0,.3) /*{global-box-shadow-color}*/;		
+
+}
