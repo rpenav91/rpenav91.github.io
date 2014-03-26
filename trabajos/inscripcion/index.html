@@ -1,37 +1,3 @@
-<?php
-	if(empty($_POST) === false){	
-    	$host = '50.63.225.19';
-    	$db = 'ascitgu';
-    	$user = 'ascitgu';
-    	$pass = 'Un!t3ctgu';
-		$con = mysql_connect($host, $user, $pass);
-
-	if (mysqli_connect_errno($con)) {
-	  	echo "Failed to connect to MySQL: " . mysqli_connect_error();
-	}
-	
-		mysql_select_db($db,$con);
-
-		//print_r($_POST);
-
-		$fields = '`'.implode('`, `',array_keys($_POST)).'`';
-		$values = '\''.implode('\', \'',$_POST).'\'';	
-		$query = "INSERT INTO webcamp ($fields) VALUES ($values)";
-		//echo $query;
-		$result = mysql_query($query,$con);
-
-		if($result){
-			$estado = 1;
-		}else{
-			$estado = 0;
-		}
-
-	}
-
-?>
-
-
-
 <!DOCTYPE html>
 
 <html class="no-js">
@@ -50,11 +16,6 @@
         	</div>
         	<h1 align="center">Inscripción WEBCAMP 1.0</h1>
         	<h4 align="center">WEBCAMP 1.0 es un evento donde podrás aprender a desarrollar una aplicación web</h4>
-        	<?php
-        		if(!empty($estado)){
-        			echo '<div class="success">Te has registrado exitósamente.</div>';
-        		}
-        	?>
 			 <form class="contact_form" action="" method="post">
 			    <ul>
 			        <li>
